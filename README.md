@@ -87,6 +87,7 @@ As expected, when we look at the map below, most of the job opportunities come f
 <img src="Images/Indeed_Folium_Pic.png" style>
 </p>
 Below we can see that 50.25% of all the job postings haven't specified a minimum degree requirement. 2.03% require a bachelor's degree, 22.34% a master's degree and 25.38% a doctoral degree.
+<br>
 <p align="center">
 <img src="Images/Pie Chart.png" style>
 </p>
