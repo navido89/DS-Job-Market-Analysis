@@ -30,7 +30,7 @@ The purpose of this project is to examine to examine the current data science jo
 
 ## Methods Used
 [(Back to top)](#table-of-contents)
-+ Web Scraping for data collection purposes
++ Data Collection
 + Data Cleaning
 + Exploratory Data Analysis
 + Data Visualization
