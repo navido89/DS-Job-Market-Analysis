@@ -1,6 +1,4 @@
-<p align="center">
 <img src="FoliumMap1Gif.gif" style>
-</p>
 
 <!-- Add buttons here -->
 ![Follow me at Twitter](https://img.shields.io/twitter/follow/NMashinchi?style=social)
