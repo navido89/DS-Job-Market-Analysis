@@ -111,6 +111,7 @@ Plus, I have also added a folium plot that shows which jobs a Master's degree ho
 </p>
 
 Finally, when we take a look at the top 5 skills from all the job postings, we get the following result:
+
 + Python: 148 counts
 + Machine Learning: 148 counts
 + Research: 109 counts
