@@ -25,7 +25,7 @@
 The purpose of this project is to examine to examine the current data science job market in California. Which city has the most job posts in CA and offers more opportunities? As a current Data Science Master's student, I wanted to find out which jobs a Master's degree holder would be eligible to apply for and what skills are most in-demand.
 <br>
 <p align="center">
-<img src="FoliumMap2Gift.gif" style>
+<img src="FoliumMap1Gift.gif" style>
 </p>
 
 ## Methods Used
