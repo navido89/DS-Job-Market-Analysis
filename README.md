@@ -1,12 +1,7 @@
-<!-- Add buttons here -->
-![Follow me at Twitter](https://img.shields.io/twitter/follow/NMashinchi?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/navido89/Time-Series-Analysis-ARIMA-Model-Covid19-Predictions)
-
 # California Data Science Job Market Analysis
 **Project Status: Completed**
 
 <img src="FoliumMap1Gif.gif" style>
-<!-- Add buttons here -->
 ![Follow me at Twitter](https://img.shields.io/twitter/follow/NMashinchi?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/navido89/Time-Series-Analysis-ARIMA-Model-Covid19-Predictions)
 <br>
