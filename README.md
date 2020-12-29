@@ -107,9 +107,9 @@ An applicant holding a bachelor's degree can apply to 52.28% of all the job post
 </p>
 
 Plus, I have also added a folium plot that shows which jobs a Master's degree holder can apply for. I think the folium plot gives a nice overview.
-<p align="center">
-<div style="text-align:center"><img src="FoliumMap2Gift.gif" /></div>
-</p>
+
+<div style="lign:center"><img src="FoliumMap2Gift.gif" /></div>
+
 
 Finally, when we take a look at the top 5 skills from all the job postings, we get the following result:
 
