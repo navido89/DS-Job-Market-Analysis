@@ -61,7 +61,7 @@ The purpose of this project is to examine to examine the current data science jo
 + Cleaned the data by using pandas. 
 + Regarding feature engineering I added location coordinates, location population data, created indicator columns (with value True/False) for skills and tools.
 + To read more about the data cleaning and feature engineering process <a href="" target="_blank">click here.</a>
-+ Conducted an exploratory data analaysis (EDA) to investigate the current data science job market in California. 
++ Conducted an exploratory data analysis (EDA) to investigate the current data science job market in California. 
 
 ## Project Results:
 [(Back to top)](#table-of-contents)
