@@ -96,7 +96,7 @@ San Francisco has the highest amount of job postings where a degree hasn't been 
 <img src="Images/Number_Of_Jobs_By_Degree.png" style>
 </p>
 Out of all 197 data science jobs from the past 2 weeks, we can see the break down below, which shows the number of job postings per degree:
-
+<br>
 + Bachelor's Degree: 4
 + Doctoral Degree: 50
 + Master's Degree: 44
