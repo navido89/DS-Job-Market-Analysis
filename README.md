@@ -87,8 +87,8 @@ As expected, when we look at the map below, most of the job opportunities come f
 <img src="Images/Indeed_Folium_Pic.png" style>
 </p>
 Below we can see that 50.25% of all the job postings haven't specified a minimum degree requirement. 2.03% require a bachelor's degree, 22.34% a master's degree and 25.38% a doctoral degree.
-<br>
 <p align="center">
+<br>
 <img src="Images/Pie Chart.png" style>
 </p>
 San Francisco has the highest amount of job postings where a degree hasn't been specified in terms of location and minimum degree requirement. Menlo Park has the highest amount of job postings where the minimum requirement is a master's degree. Santa Clara and San Diego have the most job postings where a doctoral degree is a minimum requirement. San Francisco is also the city that has posted the most job postings where a bachelor's degree is a minimum requirement. See below:
