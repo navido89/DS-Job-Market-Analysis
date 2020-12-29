@@ -7,9 +7,9 @@
 # California Data Science Job Market Analysis
 **Project Status: Completed**
 <br>
-<a href="https://nbviewer.jupyter.org/github/navido89/Police_Force_US/blob/main/Police%20Force%20Project.ipynb" target="_blank">Jupyter Notebook Viewer</a>
+<a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Jupyter Notebook Viewer</a>
 <br>
-<a href="https://towardsdatascience.com/an-examination-of-fatal-force-by-police-in-the-us-db897d97085c" target="_blank">Read Article</a>
+<a href="" target="_blank">Read Article</a>
 
 ## Table of contents
 - [Project Objective](#project-objective)
@@ -22,126 +22,105 @@
 ## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-The purpose of this project is to examine the factors that play into the horrible event of a fatal shooting by the police in the US. Which ones carry more weight that lead to fatal shootings and are perhaps predictive in nature? Are they race? State location? Mental Illness? Based on our findings from the dataset of the available variables, we are looking to predict the deceased’s race or mental illness status.
+The purpose of this project is to examine to examine the current data science job market in California. Which city has the most job posts in CA and offers more opportunities? As a current Data Science Master's student, I wanted to find out which jobs a Master's degree holder would be eligible to apply for and what skills are most in-demand.
 <br>
 <p align="center">
-<img src="images/shootings_by_year.png" style>
+<img src="Data_Has_A_Better_Idea.jpg" style>
 </p>
 
 ## Methods Used
 [(Back to top)](#table-of-contents)
++ Web Scraping for data collection purposes
 + Data Cleaning
 + Exploratory Data Analysis
 + Data Visualization
-+ Machine Learning
 
 ## Technologies:
 [(Back to top)](#table-of-contents)
-+ Pandas 
++ BeautifulSoup
++ Selenium 
++ ChromeDriverManager
 + NumPy 
-+ re
++ Time
++ Random 
++ Pandas 
++ Uszipcode 
 + Seaborn
-+ Matplotlib
-+ Copy
-+ Geopandas
 + Folium
-+ Geopy
 + Nominatim
++ Matplotlib
 + Template
 + MacroElement
++ Copy
 + PrettyTable
-+ Sklearn - preprocessing
-+ Sklearn.linear_model - LogisticRegression
-+ Sklearn.preprocessing - StandardScaler
-+ Sklearn.metrics - accuracy_score
-+ Sklearn.svm - SVC
-+ Sklearn.tree - DecisionTreeClassifier
-+ Sklearn.ensemble - RandomForestClassifier
-+ Sklearn.model_selection - cross_val_score
-+ Sklearn.model_selection - RandomizedSearchCV
 
 ## Project Description:
 [(Back to top)](#table-of-contents)
 
-+ A dataset from the Washington Post was used, which had over 5700 data points and were collected between 2015-2020. 
++ Web scraped the indeed website to collect data on the most recent data science job postings in California. 
 + Cleaned the data by using pandas. 
-+ As far as feature engineering, 9 out of the total 17 variables type had to be transformed into different types. 
-+ To read more about the data cleaning process <a href="https://towardsdatascience.com/an-examination-of-fatal-force-by-police-in-the-us-db897d97085c#9048" target="_blank">click here.</a>
++ Regarding feature engineering I added location coordinates, location population data, created indicator columns (with value True/False) for skills and tools.
++ To read more about the data cleaning and feature engineering process <a href="" target="_blank">click here.</a>
++ Conducted an exploratory data analaysis (EDA) to investigate the current data science job market in California. 
 
 ## Project Results:
 [(Back to top)](#table-of-contents)
 <br>
-With race being a big question going into this project, seeing the number of victims based on race seemed to be perfectly logical. Here we see that within all of the dataset White was killed the most and then black was almost half of the white percentage.
+Between December 13th and December 27th, most of the data science job posts came from the following locations:
++ San Francisco: 39 Jobs
++ San Diego: 18 Jobs
++ Santa Clara: 17 Jobs
 <p align="center">
-<img src="images/big_observation.png" style>
+<img src="Images/Job per City in CA.png" style>
 </p>
 
-Following now in the same line of questioning, we took a look at the physical location by state with respect to the races that were shot in those states:
+However, based on each region's population and the number of job postings the results are different if we consider the number of job posts based on the 100,000 population rate. The count of job posts per location was divided by the matching city's population and multiplied by 100,000. As a result, the top 3 cities were:
++ Westlake Village: 48 Job
++ Menlo Park: 46 Jobs
++ Palo Alto: 15 Jobs
 <p align="center">
-<img src="images/shooting_race_location.png" style>
-</p>We saw that the majority of victims that are Hispanic have been shot by the police in the following States: Texas, New Mexico and California. This becomes evident when we pay attention to the purple dots. When looking at the dots with the pink colors. We can see that most of those are more centrally located in the country. We could possibly conclude that most of the Native Americans are in most danger in the central part of the country. As we can see with no surprise now, the majority of the victims are white. The green dots are spread all over the country. What is really interesting to point out is the majority of the yellow dots are on the East Coast. We see most of the dots on the right side of the country rather than the left side. This could be an indicator that black people are more in danger on the east coast when they interact with the police. We can definitely see fewer yellow markers on the west coast.<br/> 
+<img src="Images/Job per 100k.png" style>
 
-Next, we wanted to see if shootings might have some kind of relation based on state.
-<p align="center">
-<img src="images/shooting_by_state.png" style>
-</p>
-We can see that a large majority of the victims were shot in California, Texas, and Florida, which makes sense as they are the top three most populated states. Whereas, in some of the smaller states, it shows there are fewer victims. Therefore, we decided to calculate the per capita number of victims by dividing the fatal shooting count per state by the state population size and then multiply that by 100,000.
-<p align="center">
-<img src="images/shooting_per_100k.png" style>
-</p>
-Surprisingly, our new top three results Alaska, New Mexico, and Oklahoma are relatively smaller states. It shows that there are more shootings on a relative basis in these states compared to the larger states, such as California. We create a heatmap that shows the level of concentration based on the shootings per 100,000 rate as seen in the previous bar graph. 
-<p align="center">
-<img src="images/heat_map.png" style>
-</p>
-Here, we can see that being in the mid-southwest around New Mexico and Oklahoma are not great places per capita for police shootings. Alaska with its size seems a possible outlier here.
 
-In the plot shown below, we can see that the distribution of gender, race and signs of mental illness are unbalanced.
+As expected, when we look at the map below, most of the job opportunities come from Northern California (Bay Area) and Southern California (LA & San Diego). There are not a lot of opportunities in Central California.
 <p align="center">
-<img src="images/mental_illness.png" style>
+<img src="Images/Indeed_Folium_Pic.png" style>
 </p>
-
-In the next plot we pay our attention to the feature "body cam footage" and check how that might determine whether an individual was shot. Below we can see that manny officers did have the camera off making this data skewed and hard to have as a determining variable.
+Below we can see that 50.25% of all the job postings haven't specified a minimum degree requirement. 2.03% require a bachelor's degree, 22.34% a master's degree and 25.38% a doctoral degree.
 <p align="center">
-<img src="images/Body_cam.png" style>
+<img src="Images/Pie Chart.png" style>
 </p>
-
-Below we can see a box plot that represents the age distribution by race. The age distribution by race has a strong representation across all between the ages of 22 and 47, with a mean of 37. Please note, we replaced the 262 null values in the “age” column with the mean values based on race and gender.
+San Francisco has the highest amount of job postings where a degree hasn't been specified in terms of location and minimum degree requirement. Menlo Park has the highest amount of job postings where the minimum requirement is a master's degree. Santa Clara and San Diego have the most job postings where a doctoral degree is a minimum requirement. San Francisco is also the city that has posted the most job postings where a bachelor's degree is a minimum requirement. See below:
 <p align="center">
-<img src="images/box_plot.png" style>
+<img src="Images/Number_Of_Jobs_By_Degree.png" style>
+</p>
+Out of all 197 data science jobs from the past 2 weeks, we can see the break down below, which shows the number of job postings per degree:
++ Bachelor's Degree: 4
++ Doctoral Degree: 50
++ Master's Degree: 44
++ Not Specified: 99
+
+An applicant holding a bachelor's degree can apply to 52.28% of all the job postings ((4+99)/197). Holding a master's degree makes you eligible to apply for 74.61% of the jobs and a Ph.D. holder meets the minimum education requirement for all job postings. Below we can see the plot of a master's degree holder and its eligibility status.
+<p align="center">
+<img src="Images/Eligibility Status.png" style>
 </p>
 
-In order to create a model to predict signs of Mental Illness, we used the following ML algorithms:
-   + Logistic Regression
-   + SVC (Support Vector Classification)
-   + SGD (Stochastic Gradient Descent)
-   + Decision Tree
-   + Random Forest
-We train our model and get the following accuracy scores.
+Plus, I have also added a folium plot that shows which jobs a Master's degree holder can apply for. I think the folium plot gives a nice overview.
 <p align="center">
-<img src="images/signs_mental_illness1.png" style>
+![Folium Map2 Gif](https://github.com/navido89/DS-Job-Market-Analysis/blob/master/Images/Gifs/FoliumMap2Gift.gif)
 </p>
-We picked the top 2 performing models from above and conducted a cross validation on them. Once we conducted the cross validation with a k-fold of 10 and scoring value of ‘accuracy’, we got the following results:
-<p align="center">
-<img src="images/signs_of_mental_illness2.png" style>
-</p>
-Clearly, we could see that our performing models were overfitting. We took the better performing model and started fine tuning it. The Random Forest performed better in comparison to the Decision Tree when cross validated. Next step is to tune the model. We use RandomizedSearchCV and tune the following parameters:
 
-+ bootstrap: [True,False],
-+ max_depth: [int(x) for x in np.linspace(start = 10, stop = 110, num =11)],
-+ max_features: [“auto”,”sqrt”],
-+ min_samples_split: [2,5,10],
-+ min_samples_leaf: [1,2,4],
-+ n_estimators: [int(x) for x in np.linspace(start = 200, stop = 2000, num =10)]
-
-Our model improved from 0.724 to 0.772. Next we implement our model to the test set and we get an accuracy score of 0.771, which is the percentage of correctly predicted labels. 
-
-In regard to predicting the race, we concluded that we would need to gather further data in order to create an acceptable model to predict the race. For more details <a href="https://towardsdatascience.com/an-examination-of-fatal-force-by-police-in-the-us-db897d97085c#86b5" target="_blank"> click here.</a>
-
-
-Please <a href="https://towardsdatascience.com/an-examination-of-fatal-force-by-police-in-the-us-db897d97085c#eba2" target="_blank"> click here</a> for final conclusion.
+Finally, when we take a look at the top 5 skills from all the job postings, we get the following result:
++ Python: 148 counts
++ Machine Learning: 148 counts
++ Research: 109 counts
++ Statistics: 89counts
++ SQL: 71 counts
+  
+Please <a href="" target="_blank"> click here</a> for final conclusion.
 
 ## Installation:
 [(Back to top)](#table-of-contents)
 + Clone this repo <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">(for help see this tutorial).</a>
-+ Raw data, data processing/transformation script is being kept in this repo. <a href="https://github.com/navido89/Police_Force_US/blob/main/Police%20Force%20Project.ipynb" target="_blank">Click here for notebook.</a>
-+ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/Police_Force_US/blob/main/Police%20Force%20Project.ipynb" target="_blank">Jupyter Notebook Viewer.</a>
++ Raw data, data processing/transformation script is being kept in this repo. <a href="https://github.com/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Click here for notebook.</a>
++ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Jupyter Notebook Viewer.</a>
