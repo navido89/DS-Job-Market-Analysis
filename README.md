@@ -10,7 +10,7 @@
 <br>
 <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Jupyter Notebook Viewer</a>
 <br>
-<a href="" target="_blank">Read Article</a>
+<a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00" target="_blank">Read Article</a>
 
 ## Table of contents
 - [Project Objective](#project-objective)
