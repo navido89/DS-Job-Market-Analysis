@@ -59,7 +59,7 @@ The purpose of this project is to examine the current data science job market in
 + Web scraped the indeed website to collect data on the most recent data science job postings in California. 
 + Cleaned the data by using pandas. 
 + Regarding feature engineering I added location coordinates, location population data, created indicator columns (with value True/False) for skills and tools.
-+ To read more about the data cleaning and feature engineering process <a href="" target="_blank">click here.</a>
++ To read more about the data cleaning and feature engineering process <a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00/#a966" target="_blank">click here.</a>
 + Conducted an exploratory data analysis (EDA) to investigate the current data science job market in California. 
 
 ## Project Results:
