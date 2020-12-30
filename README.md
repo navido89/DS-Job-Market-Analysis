@@ -23,7 +23,7 @@
 ## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-The purpose of this project is to examine to examine the current data science job market in California. Which city has the most job posts in CA and offers more opportunities? As a current Data Science Master's student, I wanted to find out which jobs a master's degree holder would be eligible to apply for and what skills are most in-demand.
+The purpose of this project is to examine the current data science job market in California. Which city has the most job posts in CA and offers more opportunities? As a current Data Science Master's student, I wanted to find out which jobs a master's degree holder would be eligible to apply for and what skills are most in-demand.
 <br>
 
 ## Methods Used
