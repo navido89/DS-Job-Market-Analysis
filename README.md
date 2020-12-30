@@ -128,4 +128,4 @@ Please <a href="https://towardsdatascience.com/california-data-science-job-marke
 [(Back to top)](#table-of-contents)
 + Clone this repo <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">(for help see this tutorial).</a>
 + Raw data, data processing/transformation script is being kept in this repo. <a href="https://github.com/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Click here for notebook.</a>
-+ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final?flush_cache=True.ipynb" target="_blank">Jupyter Notebook Viewer.</a>
++ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb?flush_cache=True" target="_blank">Jupyter Notebook Viewer.</a>
