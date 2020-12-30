@@ -35,6 +35,7 @@ The purpose of this project is to examine the current data science job market in
 
 ## Technologies:
 [(Back to top)](#table-of-contents)
++ Python
 + BeautifulSoup
 + Selenium 
 + ChromeDriverManager
