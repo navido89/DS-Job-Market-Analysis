@@ -122,7 +122,7 @@ Finally, when we take a look at the top 5 skills from all the job postings, we g
 + Statistics: 89counts
 + SQL: 71 counts
   
-Please <a href="" target="_blank"> click here</a> for final conclusion.
+Please <a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00#fc46" target="_blank"> click here</a> for final conclusion.
 
 ## Installation:
 [(Back to top)](#table-of-contents)
