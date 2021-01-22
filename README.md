@@ -8,9 +8,9 @@
 
 **Project Status: Completed**
 <br>
-<a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Jupyter Notebook Viewer</a>
+<a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb?flush_cache=True" target="_blank">Jupyter Notebook Viewer</a>
 <br>
-<a href="" target="_blank">Read Article</a>
+<a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00" target="_blank">Read Article</a>
 
 ## Table of contents
 - [Project Objective](#project-objective)
@@ -59,7 +59,7 @@ The purpose of this project is to examine the current data science job market in
 + Web scraped the indeed website to collect data on the most recent data science job postings in California. 
 + Cleaned the data by using pandas. 
 + Regarding feature engineering I added location coordinates, location population data, created indicator columns (with value True/False) for skills and tools.
-+ To read more about the data cleaning and feature engineering process <a href="" target="_blank">click here.</a>
++ To read more about the data cleaning and feature engineering process <a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00/#a966" target="_blank">click here.</a>
 + Conducted an exploratory data analysis (EDA) to investigate the current data science job market in California. 
 
 ## Project Results:
@@ -122,10 +122,10 @@ Finally, when we take a look at the top 5 skills from all the job postings, we g
 + Statistics: 89counts
 + SQL: 71 counts
   
-Please <a href="" target="_blank"> click here</a> for final conclusion.
+Please <a href="https://towardsdatascience.com/california-data-science-job-market-analysis-b42d7c82ab00#dd56" target="_blank"> click here</a> for final conclusion.
 
 ## Installation:
 [(Back to top)](#table-of-contents)
 + Clone this repo <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank">(for help see this tutorial).</a>
 + Raw data, data processing/transformation script is being kept in this repo. <a href="https://github.com/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Click here for notebook.</a>
-+ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb" target="_blank">Jupyter Notebook Viewer.</a>
++ **Note**: If GitHub doesn't load the notebook please refer to <a href="https://nbviewer.jupyter.org/github/navido89/DS-Job-Market-Analysis/blob/master/Indeed-DS-Jobs-Final.ipynb?flush_cache=True" target="_blank">Jupyter Notebook Viewer.</a>
